@@ -32,7 +32,7 @@ const POSTS = [
   },
   {
     slug: 'qr-code-na-mesa-como-funciona',
-    title: 'QR Code na mesa: como funciona e por que seus clientes vão amarhar',
+    title: 'QR Code na mesa: como funciona e por que seus clientes vão se amarrar',
     excerpt: 'O garçom não dá conta no rush? O QR Code na mesa libera o cliente pra pedir sozinho e a cozinha recebe na hora.',
     tag: 'Tutorial',
     date: '2026-08-05',
