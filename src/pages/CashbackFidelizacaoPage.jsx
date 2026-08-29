@@ -43,7 +43,7 @@ const benefits = {
   items: [
     { icon: '🔄', title: 'Cliente volta', body: 'Quem tem crédito acumulado tem motivo pra voltar. É psicologia simples: ninguém deixa dinheiro na mesa.' },
     { icon: '🎯', title: 'Você define as regras', body: '10% de cashback? R$ 5 fixo? Só no primeiro pedido? Você decide. O sistema aplica automaticamente.' },
-    { icon: '📱', title: 'Tudo no Cardápio', body: 'O cliente vê o saldo e usa o crédito sem baixar nada. É o próprio Cardápio Digital que ele já está usando..' },
+    { icon: '📱', title: 'Tudo no Cardápio', body: 'O cliente vê o saldo e usa o crédito sem baixar nada. É o próprio Cardápio Digital que ele já está usando.' },
     { icon: '📊', title: 'Você mede o resultado', body: 'Sabe quantos clientes voltaram, quantas vezes, quanto gastaram. Dados pra decidir se a promoção vale a pena.' },
     { icon: '🎁', title: 'Cupom pra ocasião certa', body: 'Cupom de aniversário, cupom de segunda-feira lenta, cupom de primeira compra. Segmenta e dispara no momento certo.' },
     { icon: '🏷️', title: 'Sem custo por uso', body: 'Cupons e cashback estão inclusos na assinatura. Sem taxa por cupom, sem comissão por resgate.' },
