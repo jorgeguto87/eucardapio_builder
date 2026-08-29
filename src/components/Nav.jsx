@@ -50,6 +50,7 @@ export default function Nav() {
             </button>
             <div className="absolute top-full right-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
               <div className="bg-white rounded-xl shadow-xl border border-ink/10 py-2 w-56">
+                <Link to="/funcionalidades" className="block px-4 py-2 text-sm text-ink-soft hover:bg-paper-dim hover:text-ink transition-colors">Detalhes</Link>
                 <Link to="/cardapio-digital" className="block px-4 py-2 text-sm text-ink-soft hover:bg-paper-dim hover:text-ink transition-colors">Cardápio Digital</Link>
                 <Link to="/pedido-whatsapp" className="block px-4 py-2 text-sm text-ink-soft hover:bg-paper-dim hover:text-ink transition-colors">Pedido pelo WhatsApp</Link>
                 <Link to="/pagamento-online" className="block px-4 py-2 text-sm text-ink-soft hover:bg-paper-dim hover:text-ink transition-colors">Pagamento Online</Link>
@@ -106,6 +107,7 @@ export default function Nav() {
       {menuOpen && (
         <div className="md:hidden bg-paper/95 backdrop-blur-md border-t border-ink/10 px-6 py-6 space-y-1">
           <p className="font-[family-name:var(--font-mono)] text-[11px] tracking-widest uppercase text-ink-soft/50 mb-2 mt-2">Funcionalidades</p>
+          <Link to="/funcionalidades" onClick={() => setMenuOpen(false)} className="block py-2 text-sm text-ink-soft hover:text-ink">Detalhes</Link>
           <Link to="/cardapio-digital" onClick={() => setMenuOpen(false)} className="block py-2 text-sm text-ink-soft hover:text-ink">Cardápio Digital</Link>
           <Link to="/pedido-whatsapp" onClick={() => setMenuOpen(false)} className="block py-2 text-sm text-ink-soft hover:text-ink">Pedido pelo WhatsApp</Link>
           <Link to="/pagamento-online" onClick={() => setMenuOpen(false)} className="block py-2 text-sm text-ink-soft hover:text-ink">Pagamento Online</Link>
